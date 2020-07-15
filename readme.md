@@ -1,5 +1,5 @@
 <h1  align="center">
-  <img src="https://ibb.co/jDzYSQZ" alt="class-js" border="0">
+  <img src="https://i.ibb.co/18yKfkb/promises-js.jpg" alt="class-js" border="0">
 </h1>
   
 ## Promises in JavaScript 🧱
