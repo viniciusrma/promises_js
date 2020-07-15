@@ -19,7 +19,7 @@ Promises are objects that represent the eventual outcome of an asynchronous oper
 */
 
 const executorFunction = (resolve, reject) => { };
-const myFirstPromise = new Promise(executorFunction);
+const promiseOne = new Promise(executorFunction);
 
 /*
 The executor function has two function parameters, usually referred to as the resolve() and reject() functions. 
@@ -35,11 +35,11 @@ const executorFunction = (resolve, reject) => {
     reject('Rejected!');
   }
 }
-const myFirstPromise = new Promise(executorFunction);
+const promiseOne = new Promise(executorFunction);
 
 /*
-  - We declared a variable called 'myFirstPromise'
-  - 'myFirstPromise' is constructed using 'new Promise()' which is the promise constructor method.
+  - We declared a variable called 'promiseOne'
+  - 'promiseOne' is constructed using 'new Promise()' which is the promise constructor method.
   - 'executorFunction()' is passed to the constructor and has two functions as parameters: resolve and reject.
   - If someCondition evaluates to true, resolve() will be invoked with the string 'Resolved!'
   - If not, we invoke reject() with the string 'Rejected!'
